@@ -40,7 +40,7 @@ public class Fraction
 
     public double GetDecimalValue()             /*to crear a decimal*/
     {
-        int divition = _top / _bottom;
+        double divition = (double)_top / (double)_bottom;
         return divition;
     }
     
