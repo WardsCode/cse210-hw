@@ -15,7 +15,7 @@ public class Journal
 
     }
 
-    public static void addToJournal(string prompt, string promptAnswer,string date)
+    public void addToJournal(string prompt, string promptAnswer,string date)
     {
         Entries newEntry = new Entries();
             Journal journal = new Journal ();                                      

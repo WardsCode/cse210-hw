@@ -23,7 +23,6 @@ class Program
 
             if (menuselection == 1)
             {
-
                 List<string> listprompts = new List<string> ();
                 listprompts.Add("What made you feel calm today?");
                 listprompts.Add("Did you achieved any goal today?");
