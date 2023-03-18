@@ -20,7 +20,6 @@ class Program
         {
             BreathingActivity breath1 = new BreathingActivity ();
             breath1.DisplaySummary();
-            breath1.ConsoleSpinner();
             Console.WriteLine("How long, in seconds, would you like for your session? ");
             string secondsstring = Console.ReadLine();
             int seconds = int.Parse(secondsstring);
