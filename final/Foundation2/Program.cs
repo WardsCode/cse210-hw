@@ -52,8 +52,7 @@ class Program
             question = Console.ReadLine();
             if (question.ToLower() == "yes")
             {
-                //Get Product Info: (Product Class)
-
+                //Get Product Info: (Product Class)  
                 Console.WriteLine("Add the Id of the product");                     //Id of Products
                 string newOrderId = Console.ReadLine(); 
                 int newOrderID = int.Parse(newOrderId);
@@ -72,18 +71,19 @@ class Program
                 string newOrderQuantityString = Console.ReadLine(); 
                 int newOrderQuantity = int.Parse(newOrderQuantityString);
                 newProduct.SetProductQuantity(newOrderQuantity);
+                order1.productList.Add(newProduct);          
+            }
 
-                //Order info here:
-                order1.productList.Add(newProduct);
+             //Order info here:
+                
                 Console.WriteLine("Please click enter to get the order summary");
                 Console.ReadLine();
 
                 order1.DisplayOrder(newCustomer, newProduct, newAddress );
                 
                 Console.ReadLine();
-            }
             
         }
-        Console.WriteLine("YOull order has been completed!");
+        Console.WriteLine("Your order has been completed!");
     }
 }

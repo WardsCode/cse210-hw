@@ -19,7 +19,7 @@ public class Order
         Console.WriteLine("Order Info:");
 
         string condt = newAddress.IfUsa();
-        foreach (Products product in  productList)
+        foreach (Products product in productList)
         {
             Console.WriteLine(product.DisplayProductSummary(condt));
         }
