@@ -30,7 +30,7 @@ public void Display1()
 
 public void Display2()
 {
-        Console.WriteLine($"User: {_user2}");
+        Console.WriteLine($"User: {_user1}");
 
     foreach (string list in commentsList2)
     {
@@ -41,7 +41,7 @@ public void Display2()
 
 public void Display3()
 {
-       Console.WriteLine($"User: {_user3}");
+       Console.WriteLine($"User: {_user1}");
 
     foreach (string list in commentsList3)
     {
